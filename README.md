@@ -1,9 +1,17 @@
 # docker-java-chromedriver
 
-Java with Chromedriver.
+Dockerfile containing Java and Chromedriver.
 
-## Includes:
+## Includes
 
 - openjdk 8
-- Google Chrome 
+- Google Chrome
 - Chromedriver
+
+## Instructions
+
+```
+docker build . -t radavis/java-chromedriver
+docker login
+docker push radavis/java-chromedriver
+```
